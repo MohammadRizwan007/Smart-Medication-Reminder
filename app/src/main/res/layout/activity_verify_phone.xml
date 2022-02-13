@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".VerifyPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/Img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close_24"
+            android:padding="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
+            android:text="Code"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/darkBlue"
+            android:textSize="100sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otp_verification"
+            android:includeFontPadding="false"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"
+            android:textColor="@color/darkBlue"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
+            android:text="@string/otp_descriptionTxt"
+            android:textAlignment="center"
+            android:textColor="@color/darkBlue"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <com.chaos.view.PinView
+            android:id="@+id/eTemailVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:itemCount="6"
+            app:itemWidth="50dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:lineColor="@color/colorAccent"
+            android:itemBackground="@color/white"
+            style="@style/PinWidget.PinView"
+            android:inputType="number"
+            android:cursorVisible="true"
+            app:cursorColor="@color/colorPrimary"
+            app:hideLineWhenFilled="true"
+            app:itemRadius="5dp"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_below="@id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_verifyCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_gradient"
+            android:text="Verify Code"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-medium"
+            />
+
+    </LinearLayout>
+</ScrollView>

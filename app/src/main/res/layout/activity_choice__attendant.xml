@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Choice_Attendant">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Selection"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:padding="10sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_Attendant_msg"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:padding="10dp"
+                android:layout_margin="25dp"
+                android:id="@+id/btn_addAttendant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_gradient"
+                android:text="Add Attendant"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:padding="10dp"
+                android:layout_margin="25dp"
+                android:id="@+id/btn_ViewtAttendant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_gradient"
+                android:text="View Attendant"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:padding="10dp"
+                android:layout_margin="25dp"
+                android:id="@+id/btn_EditAttendant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_gradient"
+                android:text="Remove Attendant"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

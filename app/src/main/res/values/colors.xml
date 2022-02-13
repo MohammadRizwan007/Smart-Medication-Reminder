@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0081C6</color>
+    <color name="colorText">#008577</color>
+    <color name="colorPrimaryDark">#0081C6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fbcolor">#3b5998</color>
+    <color name="googlecolor">#C3463B</color>
+    <color name="tinlogocolor">#AC7A4A</color>
+    <color name="black">#2d2d2d</color>
+    <color name="white">#ffffff</color>
+    <color name="darkBlue">#374c66</color>
+    <color name="LightBlue">#14E1DE</color>
+    <color name="blue">#0092ff</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="Lightwhite">#F8E7E7</color>
+    <color name="offwhite">#FFEEEE</color>
+    <color name="green">@android:color/holo_green_dark</color>
+    <color name="cgreen">#0092ff</color>
+
+    <color name="bottom_theme_color">#1565C0</color>
+    <color name="white_Transparent">#80ffffff</color>
+    <color name="bottom_blue">#0336FF</color>
+    <color name="yellow">#F9AA33</color>
+
+
+</resources>

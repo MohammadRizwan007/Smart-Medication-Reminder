@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewPatientDetail">
+
+    <ImageView
+        android:id="@+id/Img_cls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_24"
+        android:layout_gravity="end"
+        android:padding="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Profile"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/Img_ViewPatProfpic"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:src="@drawable/patient"/>
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_patEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Email"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_margin="20sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_PatName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Name"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_margin="20sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_PatNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Number"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_margin="20sp"/>
+
+
+
+</LinearLayout>

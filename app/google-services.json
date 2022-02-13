@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "561995540324",
+    "firebase_url": "https://smart-medication-reminder-default-rtdb.firebaseio.com",
+    "project_id": "smart-medication-reminder",
+    "storage_bucket": "smart-medication-reminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561995540324:android:d5bfdd835d0022a2397c71",
+        "android_client_info": {
+          "package_name": "com.example.smartmedicationreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561995540324-1d47acbg73mjkn3e6r9e6je4vpgo5rt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartmedicationreminder",
+            "certificate_hash": "858e8fca4fcb48eb6e0e57f9c492ecf5b77dde9c"
+          }
+        },
+        {
+          "client_id": "561995540324-ccrpe54q8rs1dd1t3rhsogu3nr2mpm1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoEt0SAPIpEdWGmBK5oAjFpkMNFoMQl-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561995540324-ccrpe54q8rs1dd1t3rhsogu3nr2mpm1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
